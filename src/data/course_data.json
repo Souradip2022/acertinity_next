@@ -1,0 +1,59 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "slug": "guitar-fundamentals",
+      "description": "Master the basics of guitar playing, including chords, scales, fingerpicking, and strumming patterns.",
+      "price": 39.99,
+      "instructor": "John Smith",
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "title": "Advanced Vocal Techniques",
+      "slug": "advanced-vocal-techniques",
+      "description": "Develop your vocal range, improve your control, and learn advanced singing techniques.",
+      "price": 49.99,
+      "instructor": "Jane Doe",
+      "isFeatured": true
+    },
+    {
+      "id": 3,
+      "title": "Music Production Fundamentals",
+      "slug": "music-production-fundamentals",
+      "description": "Learn the basics of recording, editing, and mixing music in a digital audio workstation (DAW).",
+      "price": 59.99,
+      "instructor": "David Lee",
+      "isFeatured": true
+    },
+    {
+      "id": 4,
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "description": "Explore the world of electronic music creation, learn sound design, synthesis, and beatmaking techniques.",
+      "price": 44.99,
+      "instructor": "Sarah Jones",
+      "isFeatured": true
+    },
+    {
+      "id": 5,
+      "title": "Blues Guitar Techniques",
+      "slug": "blues-guitar-techniques",
+      "description": "Learn the essential blues scales, licks, and rhythms to master the soulful sounds of blues guitar.",
+      "price": 34.99,
+      "instructor": "Michael Brown",
+      "isFeatured": false
+    },
+    {
+      "id": 6,
+      "title": "Classical Music Fundamentals",
+      "slug": "classical-music-fundamentals",
+      "description": "Gain a solid foundation in classical music theory, notation, and performance techniques.",
+      "price": 49.99,
+      "instructor": "Emily Garcia",
+      "isFeatured": true
+    }
+  ]
+}
+
