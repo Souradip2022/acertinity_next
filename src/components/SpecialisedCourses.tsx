@@ -1,9 +1,7 @@
 "use client";
 import courseData from "../data/course_data.json";
-import Image from "next/image";
 import {BackgroundGradient} from "./ui/background-gradient";
 import Link from "next/link";
-import guitar from "./../../public/guitar.webp"
 
 interface Course {
   id: number,
@@ -17,8 +15,6 @@ interface Course {
 
 function SpecialisedCourses() {
   const allCourses: Array<Course> = courseData.courses.filter((course: Course) => course.isFeatured);
-  console.log(allCourses);
-  const style: string = "grid lg:grid-cols-3 gap-16 sm:grid-cols-1 md:grid-cols-2 mt-20";
 
   return (
     <div className="p-12 bg-gray-900 h-fit w-full flex flex-col justify- items-center">
@@ -30,7 +26,7 @@ function SpecialisedCourses() {
       <div className="grid lg:grid-cols-3 gap-16 sm:grid-cols-1 md:grid-cols-2 my-20">
 
         {allCourses.map((course: Course) => (
-          <div className="flex w-[100%] h-[120%] py-6">
+          <div key={course.id} className="flex w-[100%] h-[120%] py-6">
           <BackgroundGradient
             className="flex flex-col gap-8 rounded-[22px] relative  bg-white dark:bg-zinc-900  items-center justify-center h-full w-full flex-shrink"
             containerClassName="">
@@ -43,7 +39,6 @@ function SpecialisedCourses() {
           </div>
         ))}
       </div>
-
     </div>
 
   );

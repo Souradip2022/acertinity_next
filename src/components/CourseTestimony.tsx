@@ -73,8 +73,9 @@ function CourseTestimony() {
 
   return (
     <div className="w-full h-[55rem] mb-6">
-      <StickyScroll content={content}
-                    contentClassName="overflow-hidden w-[400px] my-20 sticky right-[5%]"/>
+      <StickyScroll
+        content={content}
+        contentClassName="overflow-hidden w-[400px] my-20 sticky right-[5%]"/>
     </div>
   );
 }

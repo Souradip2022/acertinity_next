@@ -1,9 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
 import HeroComponent from "@/components/HeroComponent";
 import SpecialisedCourses from "@/components/SpecialisedCourses";
 import CourseTestimony from "@/components/CourseTestimony";
 import ReviewSection from "@/components/ReviewSection";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 
 export default function Home() {
   return (
@@ -14,6 +13,7 @@ export default function Home() {
         <SpecialisedCourses/>
         <CourseTestimony/>
         <ReviewSection/>
+        <UpcomingWebinars/>
       </div>
     </>
   );
