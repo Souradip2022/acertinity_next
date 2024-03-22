@@ -3,6 +3,7 @@ import SpecialisedCourses from "@/components/SpecialisedCourses";
 import CourseTestimony from "@/components/CourseTestimony";
 import ReviewSection from "@/components/ReviewSection";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
+import Instructors from "@/components/Instructors";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <CourseTestimony/>
         <ReviewSection/>
         <UpcomingWebinars/>
+        <Instructors/>
       </div>
     </>
   );
