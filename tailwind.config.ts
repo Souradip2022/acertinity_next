@@ -49,7 +49,7 @@ const config: Config = {
   plugins: [
     addVariablesForColors,
     require('tailwind-scrollbar-hide'),
-    function ({ matchUtilities, theme }: any) {
+    function ({matchUtilities, theme}: any) {
       matchUtilities(
         {
           "bg-grid": (value: any) => ({
@@ -68,7 +68,7 @@ const config: Config = {
             )}")`,
           }),
         },
-        { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
+        {values: flattenColorPalette(theme("backgroundColor")), type: "color"}
       );
     },
   ],

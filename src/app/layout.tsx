@@ -16,12 +16,15 @@ export default function RootLayout({children,}:
   }>) {
   return (
     <html className="dark">
+    <head>
+      <title>Create Next App</title>
+      <link rel="icon" href="./favicon.ico"/>
+    </head>
     <body className={inter.className}>
-    <div className="flex justify-center items-center relative w-full">
+    <header className="flex justify-center items-center relative w-full">
       <Navbar/>
-    </div>
+    </header>
     {children}
-
     </body>
     </html>
   );

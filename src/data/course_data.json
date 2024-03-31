@@ -7,7 +7,8 @@
       "description": "Master the basics of guitar playing, including chords, scales, fingerpicking, and strumming patterns.",
       "price": 39.99,
       "instructor": "John Smith",
-      "isFeatured": true
+      "isFeatured": true,
+      "image": "https://images.unsplash.com/photo-1525201548942-d8732f6617a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "description": "Develop your vocal range, improve your control, and learn advanced singing techniques.",
       "price": 49.99,
       "instructor": "Jane Doe",
-      "isFeatured": true
+      "isFeatured": true,
+      "image": "https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "description": "Learn the basics of recording, editing, and mixing music in a digital audio workstation (DAW).",
       "price": 59.99,
       "instructor": "David Lee",
-      "isFeatured": true
+      "isFeatured": true,
+      "image": "https://images.unsplash.com/photo-1598653222000-6b7b7a552625?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "description": "Explore the world of electronic music creation, learn sound design, synthesis, and beatmaking techniques.",
       "price": 44.99,
       "instructor": "Sarah Jones",
-      "isFeatured": true
+      "isFeatured": true,
+      "image": "https://images.unsplash.com/photo-1504904126298-3fde501c9b31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "description": "Learn the essential blues scales, licks, and rhythms to master the soulful sounds of blues guitar.",
       "price": 34.99,
       "instructor": "Michael Brown",
-      "isFeatured": false
+      "isFeatured": false,
+      "image": "https://images.unsplash.com/photo-1634538748961-b7bfaa05af81?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "description": "Gain a solid foundation in classical music theory, notation, and performance techniques.",
       "price": 49.99,
       "instructor": "Emily Garcia",
-      "isFeatured": true
+      "isFeatured": true,
+      "image": "https://images.unsplash.com/photo-1514119412350-e174d90d280e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ]
 }
