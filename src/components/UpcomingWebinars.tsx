@@ -13,7 +13,7 @@ function UpcomingWebinars() {
   const upcomingWebinars: Array<Webinars> = webinar_data.upcomingWebinars;
 
   return (
-    <div className="p-16 bg-gray-900 h-fit w-full flex flex-col justify- items-center">
+    <div className="py-16 px-0 sm:px-8 bg-gray-900 h-fit w-full flex flex-col justify- items-center">
       <div>
         <h1 className="text-3xl text-teal-600 font-semibold tracking-wide uppercase">FEATURED WEBINARS</h1>
         <p className=" lg:text-6xl my-5 leading-10 font-extrabold tracking-tight text-white sm:text-4xl text-[40px] ">
