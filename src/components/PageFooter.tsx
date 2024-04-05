@@ -14,7 +14,7 @@ function PageFooter() {
           </div>
         </div>
 
-        <div className="h-fit w-full gap-7 flex flex-col sm:pl-20 p-3.5 pl-16">
+        <div className="h-fit w-full gap-7 flex flex-col md:pl-16 sm:pl-14 p-3.5 pl-14">
           <h1 className=" md:left-2 text-3xl font-sans font-bold">Quick Links</h1>
           <div className="h-fit w-fit flex flex-col gap-2 text-lg font-normal font-sans tracking-tight top-20 opacity-90">
             <Link href="/" className=" hover:opacity-[0.8]"><span>Home</span></Link>
@@ -33,7 +33,7 @@ function PageFooter() {
           </div>
         </div>
 
-        <div className="h-fit w-full  gap-7 flex flex-col sm:p-3.5 pl-14 py-3.5">
+        <div className="h-fit w-full  gap-7 flex flex-col sm:pl-14 md:p-3.5 pl-14 p-3.5">
           <h1 className="text-3xl font-sans font-bold ">Contact Us</h1>
           <div className="flex flex-col justify-center align-middle gap-1 flex-wrap
           text-lg font-normal font-sans tracking-tight  opacity-90">

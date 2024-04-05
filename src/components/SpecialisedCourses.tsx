@@ -19,8 +19,8 @@ function SpecialisedCourses() {
   return (
     <div className="p-12 bg-gray-900 h-fit w-full flex flex-col justify- items-center">
       <div>
-        <h1 className="text-2xl text-teal-600 font-semibold tracking-wide uppercase">FEATURED COURSES</h1>
-        <p className=" lg:text-6xl my-5 leading-8 font-extrabold tracking-tight text-white sm:text-[50px]  box-border">Learn with the Best</p>
+        <h1 className="text-3xl text-teal-600 font-semibold tracking-wide uppercase">FEATURED COURSES</h1>
+        <p className=" lg:text-6xl my-5 leading-8 font-extrabold tracking-tight text-white sm:text-[50px]  text-[45px] box-border">Learn with the Best</p>
       </div>
 
       <div className="grid lg:grid-cols-3 gap-16 sm:grid-cols-1 md:grid-cols-2 my-20">

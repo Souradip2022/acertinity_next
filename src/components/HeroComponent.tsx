@@ -12,7 +12,7 @@ function HeroComponent() {
       />
       <div className="w-[1200px] flex flex-col justify-center items-center text-center gap-8">
         <h1
-          className="text-8xl font-extrabold relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Master
+          className="text-6xl sm:text-8xl font-extrabold relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Master
           the art of music</h1>
         <p className="m-4 text px-7 font-normal text-[1.6rem] text-neutral-300 -tracking-wide ">Dive into our
           comprehensive music courses and transform your musical journey today. Whether you are beginner or

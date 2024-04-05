@@ -11,7 +11,7 @@ function ReviewSection() {
       className="h-[46rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
       {/* Radial gradient for the container to give a faded look */}
       <div className="w-full h-full flex flex-col justify-evenly">
-        <h1 className="md:text-5xl lg:text-5xl sm:text-3xl font-bold text-center mb-8 z-10">Hear our Harmony: Voices of success</h1>
+        <h1 className="md:text-5xl lg:text-5xl text-3xl font-bold text-center mb-8 z-10 px-5">Hear our Harmony: Voices of success</h1>
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
